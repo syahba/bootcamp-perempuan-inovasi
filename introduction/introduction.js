@@ -7,6 +7,8 @@ console.log('01/04/2004'); // tanggal lahir
 console.log(19); // umur
 console.log('mahasiswa'); // posisi bekerja
 
+// 2. membuat interaksi pada user
+
 // 5. variable menampung data diri
 const myData = { 
     name: 'syahba',
