@@ -17,3 +17,5 @@ for (let a = 0; a <= 20; a++) {
     const res = a % 2 == 0 ? `nilai ${a} adalah genap` : `nilai ${a} adalah ganjil`;
     console.log(res);
 };
+
+// 4. pop up loop
