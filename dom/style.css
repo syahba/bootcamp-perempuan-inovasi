@@ -1,0 +1,24 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: aqua;
+    /* padding: 36px; */
+    margin: 40px;
+}
+
+.item {
+    padding: 36px;
+}
+
+#form {
+    display: block;
+}
+
+img {
+    max-width: 70%;
+}
