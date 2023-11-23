@@ -1,27 +1,31 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     <title>Contact Us Form</title>
 </head>
+
 <body>
     <div class="container">
         <div class="item" id="form">
             <h1>Get in touch</h1>
             <hr>
             <form>
-                <input type="text" name="name" id="name" placeholder="Full name">
+                <input type="text" name="name" id="name" class="input-text" placeholder="Full name">
                 <input type="email" name="email" id="email" placeholder="Email address">
                 <textarea name="message" id="message" placeholder="Messages" cols="30" rows="10"></textarea>
-                <button type="submit" id="submit" onclick="getInput()">Submit</button>
+                <button type="submit" id="submit">Submit</button>
             </form>
         </div>
         <div class="item">
-            <img src="https://img.freepik.com/free-vector/new-message-concept-landing-page_23-2148319537.jpg?w=900&t=st=1700533536~exp=1700534136~hmac=eddc53950b222eaffd1c36cf1a77d9bab9d1e5bf896c927138fd56f62f4026fe" alt="phone">
+            <img src="https://img.freepik.com/free-vector/new-message-concept-landing-page_23-2148319537.jpg?w=900&t=st=1700533536~exp=1700534136~hmac=eddc53950b222eaffd1c36cf1a77d9bab9d1e5bf896c927138fd56f62f4026fe"
+                alt="phone">
         </div>
     </div>
-    <!-- <div id="popup"></div> -->
+    <div id="popup"></div>
+    <script src="index.js"></script>
 </body>
+
 </html>
