@@ -19,10 +19,14 @@ submit.addEventListener('click', (event) => {
 // save data to local storage from input
 let arr = [];
 const saveTodo = () => {
-    data ? arr = JSON.parse(data) : arr = [];
+    if (data) {
+        arr = JSON.parse(data);
+    };
+
     const todo = document.getElementById('todo').value;
     arr.push(todo);
     localStorage.setItem('todos', JSON.stringify(arr));
+
     addTodo(todo);
 }
 
